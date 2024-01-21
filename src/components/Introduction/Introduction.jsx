@@ -20,7 +20,7 @@ export const Introduction = () => {
           {CONTACT_ME}
         </a>
       </div>
-      <img className={styles.heroImg} src={getImageUrl(URL)} alt={URL_ALT} />
+      <img className={styles.introImg} src={getImageUrl(URL)} alt={URL_ALT} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
