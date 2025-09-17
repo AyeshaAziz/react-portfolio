@@ -87,7 +87,6 @@
 
 .historyItem:hover {
   cursor: pointer;
-  background-size: 100% 100%;
 }
 
 .historyItemDescription {
@@ -102,43 +101,33 @@
   border-radius: 10px;
 }
 
-.historyItemDescription h3 {
-  padding: 10px 0;
-}
-
-.historyItemDescription ul {
-  list-style-type: disc;
-  padding: 0 20px 0 20px;
-  font-size: 20px;
-}
-
 .historyItem:active {
   background-color: var(--color-secondary);;
   transform: translateY(4px);
   transition: 0.4s;
 }
 
-.techStack {
-  padding: 10px 20px;
-  font-size: 20px;
-}
-
-.historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500px;
-}
-
-.historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300px;
-}
-
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 25px;
-  list-style: none;
   margin-left: 17px;
+}
+
+.header{
+  font-weight: bold;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.subImg{
+  width: 96%;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 830px) {
@@ -161,7 +150,7 @@
 
   .historyItemDescription {
     width: 80%;
-    height: 80%;
+    min-height: fit-content;
     overflow: auto;
   }
 }

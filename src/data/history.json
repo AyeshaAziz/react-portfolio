@@ -5,20 +5,45 @@
     "startDate": "December, 2019",
     "endDate": "Present",
     "experiences": {
-      "duties": [
-        "Focused on designing, developing, and testing multi-platform control applications for 4K+ video wall processors",
-        "Responsible for designing developing, testing, maintaining, ensuring multi-platform compatibility and synchronizing applications with various devices and clients, leveraging frontend technologies and frameworks",
-        "Proficient in creating and ensuring the quality of cross-platform applications across iOS, web, Windows, Android and Surface tablets",
-        "Demonstrated expertise in crafting and implementing customized commands to enhance processor functionality",
-        "Skilled in efficiently managing EVT (Event) messages across multiple instances to ensure seamless application performance",
-        "Design the architecture of new application components",
-        "Design and pilot prototype applications",
-        "Experience working with RESTful APIs",
-        "An advocate of clean code,secure coding practices,and delivering high quality software"
-      ],
+      "details": [
+        {
+          "header": "Designed, Developed, and Tested",
+          "desc": "Created multi-platform control applications for 4K+ video wall processors. Ensured seamless performance across various devices and clients."
+        },
+        {
+          "header": "Cross-Platform Proficiency",
+          "desc": "Developed cross-platform applications for iOS, web, Windows, Android, and Surface tablets. Ensured consistent quality and compatibility."
+        },
+        {
+          "header": "Customized Commands",
+          "desc": "Crafted and implemented customized commands to enhance processor functionality."
+        },
+        {
+          "header": "Efficient EVT Management",
+          "desc": "Managed EVT (Event) messages across multiple instances, optimizing application performance."
+        },
+        {
+          "header": "Architectural Design",
+          "desc": "Designed new application components, focusing on scalability and maintainability."
+        },
+        {
+          "header": "Prototyping",
+          "desc": "Successfully piloted prototype applications."
+        },
+        {
+          "header": "RESTful APIs",
+          "desc": "Proficient in working with RESTful APIs."
+        },
+        {
+          "header": "Code Quality Advocate",
+          "desc": "Committed to clean code, secure practices, and delivering high-quality software."
+        }
+      ]
+      ,
       "teckStack": "JavaScript, TypeScript, React, MUI, Angular 14, Node, NPM ,NVM, NgRx, RxJs, EsLint, Cordova, Electron, HammerJs, HTML5, CSS/SASS, JSON/XML, Angular Material, Bootstrap, Jenkins, Perforce, GitHub, Python, Networking, IP/web sockets communication, Confluence,Jira etc."
     },
-    "imageSrc": "history/extron.png"
+    "imageSrc": "history/extron.png",
+    "subImageSrc": "history/ccs.jpeg"
   },
   {
     "role": "Junior Consultant",
@@ -26,14 +51,64 @@
     "startDate": "Nov, 2015",
     "endDate": "Nov, 2019",
     "experiences": {
-      "duties": [
-        "Contributed to the development, maintenance, and testing of modular building blocks for operational support and goal achievement",
-        "Designed, developed, tested, and maintained responsive web applications, focusing on both frontend and backend technologies and frameworks",
-        "Analyzed, debugged, and ensured cross-browser compliance of scalable information management systems",
-        "Worked on the CHARM ATMS project, collaborated with Highways England, CGI, and Kaptch to design, develop, test, document, and maintain the Charm interface software module as part of the CHARM Advanced Traffic Management System (ATMS)",
-        "Participated in the NRA project to develop new service level dashboards for the existing Assets and Faults Management System (AFMS)"
+      "details": [
+        {
+          "header": "Contributions",
+          "desc":
+            "Involved in the development, maintenance, and testing of modular building blocks for operational support and goal achievement. Designed, developed, tested, and maintained responsive web applications, focusing on both frontend and backend technologies."
+        },
+        {
+          "header": "CHARM ATMS Project",
+          "desc":
+            "Collaborated with Highways England, CGI, and Kaptch. Developed the Charm interface software module as part of the CHARM Advanced Traffic Management System (ATMS)."
+        },
+        {
+          "header": "NRA Project",
+          "desc":
+            "Worked on developing new service level dashboards for the existing Assets and Faults Management System (AFMS)."
+        }
       ],
-      "teckStack": "JavaScript, AngularJS, Angular, TypeScript, npm, HTML5/CSS3, JQuery, Groovy, C#, Java, Camunda DMN tables, neo4j Graph database, SQL, Oracle, SQL Server Reporting Services, Enterprise Service Bus (ESB), XML, JSON, RESTful APIs,Docker, BPMN Diagrams, Swagger, and software testing using JMeter, Protractor, Jasmine, Karma, SOAPUI frameworks Subversion, Git, and Jenkins"
+      "teckStack": {
+        "Languages and Frameworks": [
+          "JavaScript",
+          "AngularJS",
+          "Angular",
+          "TypeScript",
+          "npm",
+          "HTML5/CSS3",
+          "JQuery",
+          "Groovy",
+          "C#",
+          "Java",
+          "Camunda DMN tables",
+          "neo4j Graph database"
+        ],
+        "Databases and Data Management": [
+          "SQL",
+          "Oracle",
+          "SQL Server Reporting Services"
+        ],
+        "Web Technologies": [
+          "XML",
+          "JSON",
+          "RESTful APIs",
+          "Docker",
+          "BPMN Diagrams",
+          "Swagger"
+        ],
+        "Software Testing Tools": [
+          "JMeter",
+          "Protractor",
+          "Jasmine",
+          "Karma",
+          "SOAPUI"
+        ],
+        "Version Control and CI/CD": [
+          "Subversion",
+          "Git",
+          "Jenkins"
+        ]
+      }      
     },
     "imageSrc": "history/nicander.png"
   },
@@ -43,12 +118,8 @@
     "startDate": "Aug, 2014",
     "endDate": "March, 2015",
     "experiences": {
-      "duties": [
-        "Designed and developed a full stack platform free transaction generation tool for a Customer Communication Management demonstration platform that supported RESTful API calls",
-        "Researched CCM systems (POC), its components and different tools to implement it",
-        "Produced dummy test data as a result of research to display real world transactions along with the web based system"
-      ],
-      "teckStack": "Java, SQL"
+      "subImageSrc": "history/ccs.jpeg",
+      "details":[{"header": "Designed and Developed", "desc": "Designed and developed a full-stack platform for generating free transactions. This platform was specifically designed for a Customer Communication Management (CCM) demonstration. It supported RESTful API calls."},{"header": "Research", "desc": "Conducted research and POC work.  I explored various CCM systems, their components, and different tools available for implementation. As a result I was able to generate test data to simulate real-world transactions within the web-based system"}, {"header": "Technology Stack", "desc": "Utilised Java and SQL"}]    
     },
     "imageSrc": "history/saggezza.png"
   }

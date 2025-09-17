@@ -9,8 +9,6 @@ import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 const EXPERIENCE_ID = "experience";
 const TITLE = "Experience";
 const LOGO = "Logo";
-const TECH_STACK_SUB_HEADER = "Technology Stack:";
-const DUTIES_SUB_HEADER = "Duties:";
 
 export const Experience = () => {
   return (
@@ -63,17 +61,21 @@ const getHistory = () => {
   });
 };
 
-const getDuties = (duties) => {
-  return duties.map((item, index) => <li className={styles.duties} key={index}>{item}</li>);
+const getDetails = (details) => {
+  return details.map((item, index) => (
+    <li className={styles.header} key={index}>
+      {item.header}
+      <div className={styles.description}>{item.desc}</div>
+    </li>
+  ));
 };
 
 const getExperiences = (experiences) => {
   return (
     <div className={styles.historyItemDescription}>
-      <h3>{DUTIES_SUB_HEADER} </h3>
-      <ul>{getDuties(experiences.duties)}</ul>
-      <h3>{TECH_STACK_SUB_HEADER}</h3>
-      <div className={styles.techStack}>{experiences.teckStack}</div>
+      <img className={styles.subImg} src={getImageUrl(experiences.subImageSrc)} alt='' />
+
+      <ul>{getDetails(experiences.details)}</ul>
     </div>
   );
 };
