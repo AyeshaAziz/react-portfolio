@@ -11,7 +11,7 @@
     "prepreview": "npm run build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+"deploy": "gh-pages -d dist -r https://github.com/AyeshaAziz/react-portfolio.git"
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
